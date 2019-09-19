@@ -9,6 +9,7 @@
 }
 .nav.navbar-nav>li>a{
     color:#404040;
+    letter-spacing: 1.2px;
 }
 .navbar-inverse.navbar-nav>li>a:hover {
     color: #EB7465;
