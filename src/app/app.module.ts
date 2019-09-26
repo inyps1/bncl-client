@@ -6,13 +6,17 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { UnderConstructionComponent } from './underConstruction/under-construction.component';
+import { ImageSliderComponent } from './imageSlider/image-slider.component';
+import { NotificationComponent } from './slidingNotification/notification.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    UnderConstructionComponent
+    UnderConstructionComponent,
+    ImageSliderComponent,
+    NotificationComponent
   ],
   imports: [
     BrowserModule,
