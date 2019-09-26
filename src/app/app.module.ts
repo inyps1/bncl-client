@@ -8,6 +8,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { UnderConstructionComponent } from './underConstruction/under-construction.component';
 import { ImageSliderComponent } from './imageSlider/image-slider.component';
 import { NotificationComponent } from './slidingNotification/notification.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { NotificationComponent } from './slidingNotification/notification.compon
     NavbarComponent,
     UnderConstructionComponent,
     ImageSliderComponent,
-    NotificationComponent
+    NotificationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

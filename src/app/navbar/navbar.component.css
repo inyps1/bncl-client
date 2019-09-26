@@ -4,28 +4,33 @@
     border-radius: 0;
 }
 .navbar-default .navbar-brand {
-    color:#EB7465;
+    color:green;
 }
 .nav.navbar-nav>li>a{
-    color:#404040;
+    color:green;
     letter-spacing: 1.2px;
-}
-.navbar-default.navbar-nav>li>a:hover {
-    color: #EB7465;
+    font-size: 120%;
 }
 .dropdown-menu>li>a:focus, .dropdown-menu>li>a:hover{
-    color: #EB7465;
+    color: rgb(0, 82, 75);
+    text-decoration: underline;
+    font-size: 125%;
 }
 .nav.navbar-nav>li>a:hover{
-    color:#EB7465;
+    color:rgb(0, 82, 75);
+    text-decoration: underline;
+    font-size: 125%;
 }
 .navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover{
-    color:#EB7465;
+    color:rgb(0, 82, 75);
     background-color: white;
+    text-decoration: underline;
+    font-size: 125%;
 } 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-color: #EB7465;
-background-color: transparent;
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
 } 
